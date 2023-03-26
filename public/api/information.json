@@ -1,0 +1,24 @@
+{
+    "firstName": "Jack",
+    "lastName": "Zhang",
+    "fullName": "Jack Zhang",
+    "thumbImage": "/images/formal-image.png",
+    "largeImage": "/images/about-image.jpg",
+    "bio": "I am a full-stack developer. I focused on crafting clean & user-friendly experiences, I am passionate about building excellent softwares that improve the lives of those around me.",
+    "languages": [
+        "English",
+        "Chinese"
+    ],
+    "freelance": "Available",
+    "socialAddress": {
+        "github": "https://github.com/jzhang319",
+        "linkedin": "https://www.linkedin.com/in/jack-zhang-1ba90929/",
+        "wellfound": "https://wellfound.com/profile/edit/overview"
+    },
+    "phoneNumbers": [
+        "917-292-1376"
+    ],
+    "emailAddress": [
+        "jzhang319@gmail.com"
+    ]
+}

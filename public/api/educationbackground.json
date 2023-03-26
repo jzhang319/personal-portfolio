@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "title": "Pharmacist",
+        "meta": "Long Island University",
+        "text": "Started my college expedition as Pharmacy major, then dropped out of college due to family emergency.",
+        "year": "2000 - 2003"
+    },
+    {
+        "id": 2,
+        "title": "Finance & Business Management",
+        "meta": "Long Island University",
+        "text": "Started college again after a long break, but realize I couldn't get back into Pharmacy, then switched over to double major of Business Management and Finance.",
+        "year": "2006 - 2008"
+    },
+    {
+        "id": 3,
+        "title": "Software Engineer",
+        "meta": "App Academy",
+        "text": "Took a leap of faith, and ended up finding out my passion for coding during this boot camp.",
+        "year": "2022 - 2023"
+    }
+]

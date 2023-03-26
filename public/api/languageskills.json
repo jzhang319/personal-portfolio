@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "title": "Javascript",
+        "percentage": 85
+    },
+    {
+        "id": 2,
+        "title": "Node Js",
+        "percentage": 90
+    },
+    {
+        "id": 3,
+        "title": "React Js",
+        "percentage": 80
+    },
+    {
+        "id": 4,
+        "title": "React Redux",
+        "percentage": 90
+    },
+    {
+        "id": 5,
+        "title": "Html & Css",
+        "percentage": 95
+    },
+    {
+        "id": 6,
+        "title": "Python",
+        "percentage": 70
+    },
+    {
+        "id": 7,
+        "title": "Flask",
+        "percentage": 70
+    },
+    {
+        "id": 8,
+        "title": "SQL-alchemy",
+        "percentage": 75
+    },
+    {
+        "id": 9,
+        "title": "SQLite",
+        "percentage": 85
+    }
+]

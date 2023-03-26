@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "title": "where-can-i-stay-bnb",
+        "subtitle": "Full Stack Clone of AirBnb",
+        "coverimage": "/images/portfolios/portfolio-image-19.jpg",
+        "imagegallery": false,
+        "videogallery": false,
+        "url": "https://where-will-i-stay-bnb.onrender.com/",
+        "filters": ["react", "express", "nodejs", "javascript"]
+    },
+    {
+        "id": 2,
+        "title": "Question-Overflow",
+        "subtitle": "Full-Stack Clone of Stack Overflow",
+        "coverimage": "/images/portfolios/portfolio-image-2.jpg",
+        "imagegallery": false,
+        "videogallery": false,
+        "url": "https://questionoverflow.onrender.com/",
+        "filters": ["uiux", "react", "python", "flask"]
+    },
+    {
+        "id": 3,
+        "title": "Pixelgram",
+        "subtitle": "Full-Stack clone of Instagram",
+        "coverimage": "/images/portfolios/portfolio-image-3.jpg",
+        "imagegallery": false,
+        "videogallery": false,
+        "url": "https://pixelgram.onrender.com/",
+        "filters": ["html", "react", "python", "flask", "sqlalchemy"]
+    }
+]

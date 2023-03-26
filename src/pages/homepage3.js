@@ -54,7 +54,7 @@ const Homepage1 = ({ posts }) => {
       {/* End Skills Section */}
 
       {/* Start Service Section */}
-      <Section
+      {/* <Section
         name="section-service"
         className="services-section pt-24 lg:pt-28 xl:pt-32"
       >
@@ -62,7 +62,7 @@ const Homepage1 = ({ posts }) => {
           <SectionHeading title="My Services" watermark="Services" />
           <ServicesSection />
         </div>
-      </Section>
+      </Section> */}
       {/* End Service Section */}
 
       {/* Start Resume Section */}
@@ -90,7 +90,7 @@ const Homepage1 = ({ posts }) => {
       {/* End Portfolios Section */}
 
       {/* Start Reviews Section */}
-      <Section
+      {/* <Section
         name="section-reviews"
         className="reviews-section pt-24 lg:pt-28 xl:pt-32"
       >
@@ -98,11 +98,11 @@ const Homepage1 = ({ posts }) => {
           <SectionHeading title="Client Reviews" watermark="Reviews" />
           <ReviewsSection />
         </div>
-      </Section>
+      </Section> */}
       {/* End Reviews Section */}
 
       {/* Start Blog Section */}
-      <Section
+      {/* <Section
         name="section-blog"
         className="news-section pt-24 lg:pt-28 xl:pt-32"
       >
@@ -110,7 +110,7 @@ const Homepage1 = ({ posts }) => {
           <SectionHeading title="Latest Blogs" watermark="Blogs" />
           <BlogSection posts={posts} />
         </div>
-      </Section>
+      </Section> */}
       {/* End Blog Section */}
 
       {/* Start Contact Section */}

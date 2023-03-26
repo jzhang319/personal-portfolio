@@ -6,7 +6,7 @@ const Homepage3 = () => {
   return (
     <Layout2>
       <Head>
-        <title>Bieber - React Personal Portfolio Template</title>
+        <title>Zhang - Personal Portfolio Site</title>
       </Head>
 
       {/* Start Hero Section */}

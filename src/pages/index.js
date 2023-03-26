@@ -15,7 +15,7 @@ import { Layout } from "../components/layout";
 import { SectionHeading } from "../components/utils";
 import { getPostsByPage } from "../lib/blogging";
 
-const Homepage2 = ({ posts }) => {
+const index = ({ posts }) => {
   return (
     <Layout blurred>
       <Head>
@@ -153,7 +153,7 @@ const Homepage2 = ({ posts }) => {
   );
 };
 
-export default Homepage2;
+export default index;
 
 export function getStaticProps() {
   const { posts } = getPostsByPage();

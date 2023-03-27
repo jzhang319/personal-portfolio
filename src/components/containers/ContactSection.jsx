@@ -22,9 +22,9 @@ const ContactSection = () => {
         className="col-span-9 lg:col-span-4"
       >
         <div className="contact-information">
-          <h4>Contact Information</h4>
+          <h4>Get In Touch</h4>
           <p>
-            Please feel free to contact me with any further questions. I am more than happy to sit down and explain my skills and experiences with you.
+            I'm currently looking for an opportunity to join a team that promotes learning, collaboration, and mentorship. If that sounds like you, please feel free to contact me. You can reach me via Phone, Email, or LinkedIn.
           </p>
           <span className="inline-block h-1 w-20 rounded-full bg-primary bg-opacity-20"></span>
           <div className="contact-blocks mt-5 space-y-5">
@@ -33,7 +33,7 @@ const ContactSection = () => {
                 <RiPhoneLine />
               </span>
               <div className="content">
-                <h5 className="mb-2">Contact on phone</h5>
+                <h5 className="mb-2">Contact via phone</h5>
                 {data.phoneNumbers.map((number, index) => (
                   <p className="mb-0" key={index}>
                     <Link href={`tel:${number.split("-").join("")}`}>
@@ -48,7 +48,7 @@ const ContactSection = () => {
                 <RiMailLine />
               </span>
               <div className="content">
-                <h5 className="mb-2">Contact on mail</h5>
+                <h5 className="mb-2">Contact via Email</h5>
                 {data.emailAddress.map((email, index) => (
                   <p className="mb-0" key={index}>
                     <Link href={`mailto:${email}`}>

@@ -69,7 +69,7 @@ const HeroSection = ({ blurred, scroll = true, typed = true }) => {
                     backDelay={2000}
                     strings={[
                       data.fullName,
-                      "Full-stack Developer",
+                      "Full-Stack Developer",
                       "Web Designer",
                     ]}
                     className="text-primary"

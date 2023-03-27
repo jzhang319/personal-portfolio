@@ -16,7 +16,7 @@ const works = () => {
         className="portfolios-section pt-24 lg:pt-28 xl:pt-32"
       >
         <div className="container mx-auto">
-          <SectionHeading title="My Works" watermark="Works" animated={false} />
+          <SectionHeading title="My Projects" watermark="Projects" animated={false} />
           <PortfoliosSection />
         </div>
       </section>

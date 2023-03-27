@@ -83,7 +83,7 @@ const Homepage1 = ({ posts }) => {
         className="portfolios-section pt-24 lg:pt-28 xl:pt-32"
       >
         <div className="container mx-auto">
-          <SectionHeading title="My Works" watermark="Works" />
+          <SectionHeading title="My Projects" watermark="Projects" />
           <PortfoliosSection />
         </div>
       </Section>
@@ -119,7 +119,7 @@ const Homepage1 = ({ posts }) => {
         className="contact-section pt-24 lg:pt-28 xl:pt-32"
       >
         <div className="container mx-auto">
-          <SectionHeading title="Contact Us" watermark="Contact" />
+          <SectionHeading title="Contact Me" watermark="Contact" />
           <ContactSection />
         </div>
       </Section>

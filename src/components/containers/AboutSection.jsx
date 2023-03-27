@@ -76,7 +76,7 @@ const AboutSection = () => {
                 <strong className="inline-block min-w-[120px] font-medium">
                   Age{" "}
                 </strong>
-                : {data.age} years
+                : {data.age} years-old
               </li>
             )}
             {data.nationality && (
@@ -103,6 +103,22 @@ const AboutSection = () => {
                 : {data.address}
               </li>
             )}
+            {data.location && (
+              <li className="text-lg">
+                <strong className="inline-block min-w-[120px] font-medium">
+                  Location{" "}
+                </strong>
+                : {data.location}
+              </li>
+            )}
+            {data.hobbies.length ? (
+              <li className="text-lg">
+                <strong className="inline-block min-w-[120px] font-medium">
+                  Hobbies{" "}
+                </strong>
+                : {data.hobbies.join(", ")}
+              </li>
+            ) : null}
             {data.freelance && (
               <li className="text-lg">
                 <strong className="inline-block min-w-[120px] font-medium">

@@ -9,7 +9,14 @@
         "English",
         "Chinese"
     ],
+    "hobbies": [
+        "Saltwater Aquarium",
+        "Gaming",
+        "DIYer"
+    ],
+    "age": 41,
     "freelance": "Available",
+    "location": "Laurel, MD",
     "socialAddress": {
         "github": "https://github.com/jzhang319",
         "linkedin": "https://www.linkedin.com/in/jack-zhang-1ba90929/",

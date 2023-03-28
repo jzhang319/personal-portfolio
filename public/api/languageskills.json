@@ -6,23 +6,23 @@
     },
     {
         "id": 2,
-        "title": "Node Js",
+        "title": "Node JS",
         "percentage": 90
     },
     {
         "id": 3,
-        "title": "React Js",
-        "percentage": 80
+        "title": "React JS",
+        "percentage": 100
     },
     {
         "id": 4,
         "title": "React Redux",
-        "percentage": 90
+        "percentage": 100
     },
     {
         "id": 5,
-        "title": "Html & Css",
-        "percentage": 95
+        "title": "Html & CSS",
+        "percentage": 100
     },
     {
         "id": 6,
@@ -36,12 +36,17 @@
     },
     {
         "id": 8,
-        "title": "SQL-alchemy",
+        "title": "SQL-Alchemy",
         "percentage": 75
     },
     {
         "id": 9,
         "title": "SQLite",
-        "percentage": 85
+        "percentage": 100
+    },
+    {
+        "id": 10,
+        "title": "Postgresql",
+        "percentage": 100
     }
 ]

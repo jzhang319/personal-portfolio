@@ -71,14 +71,6 @@ const AboutSection = () => {
                 : {data.lastName}
               </li>
             )}
-            {data.age && (
-              <li className="text-lg">
-                <strong className="inline-block min-w-[120px] font-medium">
-                  Age{" "}
-                </strong>
-                : {data.age} years-old
-              </li>
-            )}
             {data.nationality && (
               <li className="text-lg">
                 <strong className="inline-block min-w-[120px] font-medium">

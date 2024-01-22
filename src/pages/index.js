@@ -15,7 +15,7 @@ import { Layout } from "../components/layout";
 import { SectionHeading } from "../components/utils";
 import { getPostsByPage } from "../lib/blogging";
 
-const Homepage2 = ({ posts }) => {
+const Homepage2 = () => {
   return (
     <Layout blurred>
       <Head>
@@ -161,11 +161,6 @@ export function getStaticProps() {
   return {
     props: {
       posts,
-    },
-    revalidate: 10,
-    redirect: {
-      destination: "/homepage2",
-      permanent: false,
-    },
+    }
   };
 }

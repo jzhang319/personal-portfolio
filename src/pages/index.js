@@ -163,5 +163,9 @@ export function getStaticProps() {
       posts,
     },
     revalidate: 10,
+    redirect: {
+      destination: "/homepage2",
+      permanent: false,
+    },
   };
 }

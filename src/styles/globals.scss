@@ -1,7 +1,7 @@
 /*
  ************************************************************************
  *
- * Template Name: Bieber - React Personal Portfolio Template   
+ * Template Name: Bieber - React Personal Portfolio Template
  * Template URI: https://themeforest.net/
  * Description: Bieber - is a creative personal portfolio React template build with NextJS and Tailwindcss.
  * Author: Nuclear_Themes
@@ -677,6 +677,18 @@
     }
   }
 }
+
+img[alt="Jack Zhang"] {
+  width: 100%;
+  /* or any custom width */
+  height: auto;
+  /* maintain aspect ratio */
+  object-fit: cover;
+  /* or 'contain' */
+  object-position: top;
+  /* align the top of the image with the top of the box */
+}
+
 
 // Fullscreen menu
 .fullscreen-menu {

@@ -18,6 +18,13 @@
         "title": "Administrative Director",
         "meta": "B&B Child Care Services LLC.",
         "text": "Led and managed an after-school program with approximately 50 students. Trained over 60 after-school, summer camp teachers and teacher's assistants. Responsible for an annual budget of $120,000 distributed for hiring needs, operational costs and employee travel expenses.",
-        "year": "2000 - Present"
+        "year": "2000 - 2023"
+    },
+    {
+        "id": 4,
+        "title": "Full-Stack Developer",
+        "meta": "Coursect Inc.",
+        "text": "Designed and implemented the Type your own question modal and revamp the website's UI. Also, implemented the backend for converting pdf to text.",
+        "year": "2023 - present"
     }
 ]

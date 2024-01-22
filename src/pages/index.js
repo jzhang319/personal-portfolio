@@ -14,8 +14,15 @@ import {
 import { Layout } from "../components/layout";
 import { SectionHeading } from "../components/utils";
 import { getPostsByPage } from "../lib/blogging";
+import { useEffect } from "react";
+import { useRouter } from "next/router";
 
-const Homepage2 = () => {
+const Homepage2 = ({ posts }) => {
+  const router = useRouter();
+
+  useEffect(() => {
+    router.push("/homepage2");
+  }, []);
   return (
     <Layout blurred>
       <Head>
@@ -94,7 +101,11 @@ const Homepage2 = () => {
         className="portfolios-section pt-24 lg:pt-28 xl:pt-32"
       >
         <div className="container mx-auto">
-          <SectionHeading animated={false} title="My Projects" watermark="Projects" />
+          <SectionHeading
+            animated={false}
+            title="My Projects"
+            watermark="Projects"
+          />
           <PortfoliosSection />
         </div>
       </Section>
@@ -161,6 +172,6 @@ export function getStaticProps() {
   return {
     props: {
       posts,
-    }
+    },
   };
 }

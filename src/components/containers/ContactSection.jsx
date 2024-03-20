@@ -64,17 +64,17 @@ const ContactSection = () => {
                 <RiMailLine />
               </span>
               <div className="content">
-                <h5 className="mb-2">15 min chat with me</h5>
+                <h5 className="mb-2">Schedule a 15 min chat with me</h5>
                 {data.calendly.map((email, index) => (
                   <p className="mb-0" key={index}>
-                    <Link href={`mailto:${email}`}>
+                    <Link href={email}>
                       <a className="no-underline">{email}</a>
                     </Link>
                   </p>
                 ))}
               </div>
             </div>
-            
+
             {/* <div className="contact-block card flex p-4 md:p-5">
               <span className="icon mr-4 inline-flex h-16 w-16 shrink-0 grow-0 basis-16 items-center justify-center rounded-full bg-primary bg-opacity-10 text-3xl text-primary">
                 <RiMapPinLine />

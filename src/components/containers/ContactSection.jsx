@@ -67,7 +67,7 @@ const ContactSection = () => {
                 <h5 className="mb-2">Schedule a 15 min chat with me</h5>
                 {data.calendly.map((email, index) => (
                   <p className="mb-0" key={index}>
-                    <Link href={email}>
+                    <Link href={email} as={email}>
                       <a className="no-underline">{email}</a>
                     </Link>
                   </p>

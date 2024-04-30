@@ -21,7 +21,7 @@
         "gray-matter": "^4.0.3",
         "gsap": "^3.10.4",
         "marked": "^4.0.14",
-        "next": "12.1.6",
+        "next": "^12.1.6",
         "next-pwa": "^5.4.6",
         "normalize.css": "^8.0.1",
         "nprogress": "^0.2.0",

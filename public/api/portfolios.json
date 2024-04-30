@@ -11,6 +11,16 @@
     },
     {
         "id": 2,
+        "title": "ai Tutoring Platform",
+        "subtitle": "Software Engineer at Coursect",
+        "coverimage": "/images/portfolios/portfolio-image-1.jpg",
+        "imagegallery": true,
+        "videogallery": false,
+        "url": "https://coursect.onrender.com/",
+        "filters": ["html", "react", "python", "flask", "sqlalchemy"]
+    },
+    {
+        "id": 3,
         "title": "Pixelgram",
         "subtitle": "Full-Stack clone of Instagram",
         "coverimage": "/images/portfolios/portfolio-image-3.jpg",
@@ -20,7 +30,7 @@
         "filters": ["html", "react", "python", "flask", "sqlalchemy"]
     },
     {
-        "id": 3,
+        "id": 4,
         "title": "Question-Overflow",
         "subtitle": "Full-Stack Clone of Stack Overflow",
         "coverimage": "/images/portfolios/portfolio-image-2.jpg",
@@ -30,7 +40,7 @@
         "filters": ["uiux", "react", "python", "flask"]
     },
     {
-        "id": 4,
+        "id": 5,
         "title": "where-can-i-stay-bnb",
         "subtitle": "Full Stack Clone of AirBnb",
         "coverimage": "/images/portfolios/portfolio-image-19.jpg",

@@ -22,7 +22,14 @@
     },
     {
         "id": 4,
-        "title": "Full-Stack Developer",
+        "title": "Software Engineer",
+        "meta": "Sushiyany Inc.",
+        "text": "Redesigned the company's website to improve the user experience. Cause the client has a non-technical background, I designed the website so that the restaurant menu is updated through a single CSV file.",
+        "year": "March 2024 - April 2024"
+    },
+    {
+        "id": 5,
+        "title": "Full-Stack Software Engineer",
         "meta": "Coursect Inc.",
         "text": "Developed and implemented PDF/IMAGE chat feature utilizing the Google Gemini Vision Pro to enhance the user experience by allowing users to ask questions about the pdf/image they uploaded. Also moved the part of our database that stores the files user uploaded to Google Cloud Platform to improve the reliability and scalability of our application.",
         "year": "2023 - Present"

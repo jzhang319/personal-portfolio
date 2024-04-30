@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "title": "Pharmacist",
+        "title": "Pharmacy",
         "meta": "Long Island University",
         "text": "Started my college expedition as Pharmacy major, then dropped out of college due to family emergency.",
         "year": "2000 - 2003"
@@ -15,7 +15,7 @@
     },
     {
         "id": 3,
-        "title": "Full Stack Developer | Software Engineer",
+        "title": "Full-Stack Software Engineer",
         "meta": "App Academy",
         "text": "Took a leap of faith, and ended up finding out my passion for coding during this boot camp.",
         "year": "2022 - 2023"

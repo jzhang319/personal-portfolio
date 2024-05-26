@@ -28,7 +28,7 @@ const ContactForm = () => {
           if (result.status === 200 && result.text) {
             setServerError(false);
             setServerSuccess("Email successfully sent!");
-            reset();
+            // reset();
           }
         },
         (error) => {

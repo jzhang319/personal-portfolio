@@ -14,7 +14,7 @@
         "title": "ai Tutoring Platform",
         "subtitle": "Software Engineer at Coursect",
         "coverimage": "/images/portfolios/portfolio-image-1.jpg",
-        "imagegallery": true,
+        "imagegallery": false,
         "videogallery": false,
         "url": "https://coursect.onrender.com/",
         "filters": ["html", "react", "python", "flask", "sqlalchemy"]

@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <title>Bieber - React Personal Portfolio Template</title>
+
+  <!-- Styles -->
+  <link href="css/collection.css" rel="stylesheet" />
+  <link href="css/custom.css" rel="stylesheet" />
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500%7CLato:300,400" rel="stylesheet"
+    type="text/css" />
+
+  <!-- Scripts -->
+  <script src="js/other.js"></script>
+  <script src="js/custom.js"></script>
+</head>
+
+<body data-spy="scroll" data-target=".sidebar" data-offset="200">
+  <!-- Sidebar -->
+  <aside class="sidebar sidebar-boxed sidebar-dark">
+    <ul class="nav sidenav dropable">
+      <li><a href="#introduction" title="Introduction">Introduction</a></li>
+      <li>
+        <a href="#getting_started" title="Setup Development Envrionment">Setup Development Environment</a>
+      </li>
+      <li><a href="#documenter_cover">Pages and Components Info</a></li>
+      <li><a href="#dependencies" title="Dependencies">Dependencies</a></li>
+      <li><a href="#fonts_used" title="Fonts">Fonts</a></li>
+      <li><a href="#edittemplate" title="Edit">Edit the template</a></li>
+      <li>
+        <a href="#deploytemplate" title="Deploy">Deploy the template</a>
+      </li>
+      <li><a href="#credits" title="Credits">Credits</a></li>
+      <li><a href="#supports" title="Support">Support</a></li>
+    </ul>
+  </aside>
+  <!-- END Sidebar -->
+
+  <header class="site-header navbar-transparent">
+    <!-- Banner -->
+    <div class="banner auto-size" style="background-color: #037fff">
+      <div class="container-fluid">
+        <h1>
+          <strong>Bieber - React Personal Portfolio Template </strong> Documentation
+        </h1>
+      </div>
+    </div>
+    <!-- END Banner -->
+  </header>
+
+  <main class="container-fluid">
+    <!-- Main content -->
+    <article class="main-content" role="main">
+      <section id="introduction">
+        <div class="page-header">
+          <h3>Introduction</h3>
+        </div>
+        <ul>
+          <li>Bieber - React Personal Portfolio Template</li>
+          <li>Created: August 11, 2022</li>
+          <li>Version: 1.0.0</li>
+          <li>
+            By:
+            <a href="#">NuclearThemes</a>
+          </li>
+        </ul>
+        <p>
+          Bieber - is a creative personal portfolio <b>React</b> template
+          build with <b>NextJS</b> and <b>Tailwindcss</b>. This template is designed for building beautiful clean
+          <b>personal portfolio</b> website. It uses all updated packages. It has a great
+          customizable option. By the power of <b>tailwindcss</b>. It is very
+          easy to change any layout and design. If you like creative design this can be a best choice for you.
+        </p>
+      </section>
+
+      <section id="getting_started">
+        <div class="page-header">
+          <h3>Setup Development Environment</h3>
+        </div>
+        <p>
+          In order to kickstart the development of your web app with Bieber,
+          the very first thing you need to do is to setup a react development
+          environment.
+        </p>
+        <p>Following tools are needed to setup a react dev environment:</p>
+        <ul>
+          <li><b>Node JS</b></li>
+          <p>
+            NodeJS works as a node package manager behind the scene. It is
+            recommended to download and install the latest version of Node JS
+            from its official site. (We prefer latest LTS version.)
+            <a href="http://nodejs.org/" target="_blank">http://nodejs.org/</a>
+          </p>
+        </ul>
+
+        <div class="page-header">
+          <h3>Preparation</h3>
+        </div>
+        <p>
+          You'll need to install
+          <a href="https://nodejs.org/en/" href="_blank">Node.js >= v15+ (Recommended Version)</a>
+          (NPM comes along with it) and serve (a NPM package)
+        </p>
+        <p>
+          Use command line tool i.e. powershell or terminal and navigate to
+          the project (bieber) root. This is powershell in windows and
+          terminal on mac/linux.
+        </p>
+        <strong>Let's see how the setup works:</strong> <br />
+        <p><strong>Step-1:</strong> Use terminal and navigate to the project root.</p>
+        <p><strong>Step-2:</strong> Rename <b>.env.template</b> to <b>.env</b> and set the environment variables.</p>
+        <p>
+          <strong>Step-3:</strong> Then run : <code>npm install</code> or,
+          <code>yarn install</code>
+          <br>
+          (If you fall any problem with it, try <code>npm install --save --legacy-peer-deps</code>)
+        </p>
+        <p>
+          <strong>Step-4:</strong> Then run : <code>npm run dev</code> or,
+          <code>yarn dev</code>
+        </p>
+        <p>
+          <strong>Step-5:</strong> Now in the browser go <a href="http://localhost:3000">http://localhost:3000</a>
+        </p>
+      </section>
+
+      <section id="documenter_cover">
+        <div class="page-header">
+          <h3>Pages and Components Info</h3>
+        </div>
+
+        <div id="documenter_buttons"></div>
+        <ul>
+          <li>Home Version 1(<b>/src/pages/homepage1.js</b>)</li>
+          <li>Home Version 2 (<b>/src/pages/homepage2.js</b>)</li>
+          <li>Home Version 3 (<b>/src/pages/homepage3.js</b>)</li>
+          <li>Blogs (<b>/src/pages/posts/[slug].js</b>)</li>
+          <li>Blog Details (<b>/src/pages/postdetails/[slug].js</b>)</li>
+          <li>Categories (<b>/src/pages/category/[slug]/[page].js</b>)</li>
+          <li>Categories (<b>/src/pages/category/[slug]/[page].js</b>)</li>
+          <li>Not Found (<b>/src/pages/404.js</b>)</li>
+          <li>About Page (<b>/src/pages/about.js</b>) <small>Use this page is only for homepage1</small></li>
+          <li>Resume Page (<b>/src/pages/resume.js</b>) <small>Use this page is only for homepage1</small></li>
+          <li>Portfolio Page (<b>/src/pages/works.js</b>) <small>Use this page is only for homepage1</small></li>
+          <li>Contact Page (<b>/src/pages/contact.js</b>) <small>Use this page is only for homepage1</small></li>
+        </ul>
+        <p><strong>NB:</strong> /src/pages/index.js is a demopage file. You can remove it.</p>
+
+        <h6 style="margin-top: 20px"><strong>Template Features:</strong></h6>
+        <ul>
+          <li>ES6+</li>
+          <li>React JS 18.1+</li>
+          <li>Next JS 12.1+</li>
+        </ul>
+      </section>
+
+      <section id="dependencies">
+        <div class="page-header">
+          <h3>Dependencies</h3>
+        </div>
+        <p>
+          Here are the <strong>dependencies</strong> list which being used in
+          the <b>Bieber</b> React Template:
+        </p>
+        <pre class="line-numbers">
+<code class="language-markup"> 
+  "dependencies": {
+    "@emailjs/browser": "^3.6.2",
+    "axios": "^0.26.1",
+    "disqus-react": "^1.1.2",
+    "framer-motion": "^6.2.10",
+    "fslightbox-react": "^1.6.2-2",
+    "gray-matter": "^4.0.3",
+    "gsap": "^3.10.4",
+    "marked": "^4.0.14",
+    "next": "12.1.6",
+    "next-pwa": "^5.4.6",
+    "normalize.css": "^8.0.1",
+    "nprogress": "^0.2.0",
+    "react": "18.1.0",
+    "react-dom": "18.1.0",
+    "react-hook-form": "^7.30.0",
+    "react-icons": "^4.3.1",
+    "react-portal": "^4.2.2",
+    "react-query": "^3.34.19",
+    "react-scroll": "^1.8.6",
+    "react-scroll-parallax": "^3.2.0",
+    "react-star-ratings": "^2.3.0",
+    "react-svg": "^14.1.18",
+    "react-typed": "^1.2.0",
+    "remark": "^14.0.2",
+    "remark-html": "^15.0.1",
+    "sharp": "^0.30.4",
+    "swiper": "^8.1.4"
+}
+</code>
+        </pre>
+        <p>
+          Here are the <strong>Dev dependencies</strong> list which being used in
+          the <b>Bieber</b> React Template:
+        </p>
+        <pre class="line-numbers">
+<code class="language-markup"> 
+  "devDependencies": {
+    "autoprefixer": "^10.4.4",
+    "eslint": "8.12.0",
+    "eslint-config-next": "12.1.4",
+    "next-compose-plugins": "^2.2.1",
+    "postcss": "^8.4.12",
+    "prettier": "^2.6.1",
+    "prettier-plugin-tailwindcss": "^0.1.8",
+    "sass": "^1.52.0",
+    "tailwindcss": "^3.0.23",
+    "tailwindcss-debug-screens": "^2.2.1",
+    "tailwindcss-nested-groups": "^1.2.4"
+}
+</code>
+        </pre>
+      </section>
+
+      <section id="fonts_used">
+        <div class="page-header">
+          <h3>Fonts</h3>
+        </div>
+        <p>
+          By default, the template loads <strong>Rubik</strong> font from
+          Google Web Font Services, you can change the font with the one that
+          suits you best.
+        </p>
+        <p>
+          You will find the font code in the &quot;<strong>src/pages/_document.js</strong>
+        </p>
+        <pre class="line-numbers">
+<code class="language-css">
+    &lt;link href="https://fonts.googleapis.com/css2?family=Radio+Canada:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet"/&gt;
+</code>
+        </pre>
+      </section>
+
+      <section id="edittemplate">
+        <div class="page-header">
+          <h3>Edit</h3>
+        </div>
+        <section style="margin-top: 30px">
+          <h5><strong>Change the logo:</strong></h5>
+          <p>Go to Logo.jsx with an editor and follow the screenshot.</p>
+          <img src="/images/change-logo.png" alt="Change Logo" />
+        </section>
+        <section style="margin-top: 30px">
+          <h5>
+            <strong>Change the copyright:</strong>
+          </h5>
+          <p>
+            Go to Footer.jsx with an editor & find the copyright text like the
+            image below and edit it yourself.
+          </p>
+          <img src="/images/change-copyright.png" alt="" />
+        </section>
+        <section style="margin-top: 30px">
+          <h5>
+            <strong>Change the environment variable:</strong>
+          </h5>
+          <p>
+            Rename .env.template to .env and follw the image below (NEXT_PUBLIC_SITE_URL, NEXT_PUBLIC_API_URL).
+          </p>
+          <img src="/images/change-env.png" alt="" />
+        </section>
+        <section style="margin-top: 30px">
+          <h5>
+            <strong>Change styles:</strong>
+          </h5>
+          <p>
+            Just open tailwindcss.config and change the value. If you want to change the
+            primary color please follow the image.
+          </p>
+          <img src="/images/change-color.png" alt="" />
+          <p style="margin-top: 20px">
+            <strong>NB: You have super power to change any design from any place
+              with tailwindcss, just change the classNames from any tag. To
+              know more plese visit the tailwindcss documentation from
+              <a href="https://tailwindcss.com/docs/installation">here</a>.</strong>
+          </p>
+        </section>
+        <section style="margin-top: 30px">
+          <h5>
+            <strong>Change Email:</strong>
+          </h5>
+          <p>
+            Go to <b>/settings/settings.js</b> file and follow the image below. All these values are find in emailjs admin panel.
+          </p>
+          <img src="/images/change-color.png" alt="" />
+        </section>
+      </section>
+
+      <section id="deploytemplate">
+        <div class="page-header">
+          <h3>Deploy</h3>
+        </div>
+        <p><b>For static generation:</b></p>
+        <ul>
+          <li>
+            Make sure your environment variables set properly in <code>.env</code> file. The NEXT_PUBLIC_SITE_URL should be the url where you want to live your site and the NEXT_PUBLIC_API_URL should be your api link.
+            Example: <br>
+            NEXT_PUBLIC_SITE_URL=https://nuclearthemes.com <br>
+            NEXT_PUBLIC_API_URL=https://nuclearthemes.com/api
+          </li>
+          <li>
+            Run <code>npm run export</code> or, <code>yarn export</code> for build
+            the files.
+          </li>
+          <li>
+            You will find an /out directory in the root directory.
+          </li>
+          <li>
+            Upload the files of the /out directory to your server.
+          </li>
+        </ul>
+        <br />
+        <p><b>For nodejs server:</b></p>
+        <ul>
+          <li>Follow this link <a href="https://nextjs.org/docs/deployment">https://nextjs.org/docs/deployment</a></li>
+        </ul>
+        
+      </section>
+
+      <section id="credits">
+        <div class="page-header">
+          <h3>Credits</h3>
+        </div>
+        <strong>Images</strong><br />
+        <a href="https://unsplash.com/" target="_blank">Unsplash</a><br />
+        <a href="https://www.freepik.com/" target="_blank">Freepik</a><br />
+
+        <div class="height-15"></div>
+
+        <strong>Packages</strong><br />
+        <a href="https://www.npmjs.com/package/react" target="_blank">React</a><br />
+        <a href="https://www.npmjs.com/package/react-dom" target="_blank">ReactDom</a><br />
+        <a href="https://www.npmjs.com/package/axios" target="_blank">Axios</a><br />
+        <a href="https://www.npmjs.com/package/react-query" target="_blank">React Query</a><br />
+        <a href="https://www.npmjs.com/package/react-icons" target="_blank">React Icons</a><br />
+        <a href="https://www.npmjs.com/package/framer-motion" target="_blank">Framer Motion</a><br />
+        <a href="https://www.npmjs.com/package/nprogress" target="_blank">NProgress</a><br />
+        <a href="https://www.npmjs.com/package/react-hook-form" target="_blank">React Hook Form</a><br />
+        <a href="https://www.npmjs.com/package/swiper" target="_blank">Swiper</a><br />
+        <a href="https://www.npmjs.com/package/fslightbox-react" target="_blank">Full Screen Lightbox</a><br />
+        <a href="https://www.npmjs.com/package/tailwindcss" target="_blank">Tailwindcss</a>
+      </section>
+
+      <section id="supports">
+        <div class="page-header">
+          <h3>Support</h3>
+        </div>
+        <p> If you have any questions, please use our profile contact form on Envato ( <a target="_blank"
+            href="https://themeforest.net/user/nuclear_themes">https://themeforest.net/user/nuclear_themes</a> ). <br>
+          We aim to answer all questions within <strong>24 hours</strong> . In some cases the waiting time can be
+          extended to <strong>48 hours.</strong></p>
+        <p>Email: <a href="mailto:nuclearthemes@gmail.com">nuclearthemes@gmail.com</a></p>
+      </section>
+    </article>
+    <!-- END Main content -->
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container-fluid"> <a id="scroll-up" href="#"><i class="fa fa-angle-up"></i></a>
+      <div class="row">
+        <div class="col-md-6 col-sm-6">
+          <p>Copyright &copy; 2012. All right reserved by <a href="#" target="_new">nuclearthemes.com</a></p>
+        </div>
+        <div class="col-md-6 col-sm-6">
+          <ul class="footer-menu">
+            <li><a href="mailto:nulcearthemes@gmail.com">Contact us</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- END Footer -->
+
+  </main>
+</body>
+
+</html>

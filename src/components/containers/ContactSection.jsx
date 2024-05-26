@@ -24,7 +24,7 @@ const ContactSection = () => {
         <div className="contact-information">
           <h4>Get In Touch</h4>
           <p>
-            I am currently looking for an opportunity to join a team that promotes learning, collaboration, and mentorship. If that sounds like you, please feel free to contact me. You can reach me via Phone, Email, LinkedIn or schedule a quick 15-min chat on calendly.
+            I am currently looking for an opportunity to join a team that promotes learning, collaboration, and mentorship. If that sounds like you, please feel free to contact me. You can reach me via Phone, Email, LinkedIn or schedule a quick 15-min chat with me on calendly.
           </p>
           <span className="inline-block h-1 w-20 rounded-full bg-primary bg-opacity-20"></span>
           <div className="contact-blocks mt-5 space-y-5">

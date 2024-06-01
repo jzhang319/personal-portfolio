@@ -7,17 +7,17 @@
         "imagegallery": ["/images/portfolios/sushiya1.png","/images/portfolios/sushiya2.png","/images/portfolios/sushiya3.png"],
         "videogallery": false,
         "url": "https://sushiya.onrender.com/menu",
-        "filters": ["html", "react", "python", "flask", "sqlalchemy"]
+        "filters": ["react", "python", "flask", "sqlalchemy"]
     },
     {
         "id": 2,
-        "title": "ai Tutoring Platform",
+        "title": "AI Tutoring Platform",
         "subtitle": "Software Engineer at Coursect",
         "coverimage": "/images/portfolios/coursect.jpg",
         "imagegallery": false,
         "videogallery": false,
         "url": "https://coursect.onrender.com/",
-        "filters": ["html", "react", "python", "flask", "sqlalchemy"]
+        "filters": ["react", "python", "flask", "sqlalchemy"]
     },
     {
         "id": 3,
@@ -27,7 +27,7 @@
         "imagegallery": ["/images/portfolios/pixelgram1.png","/images/portfolios/pixelgram2.png","/images/portfolios/pixelgram3.png"],
         "videogallery": false,
         "url": "https://pixelgram.onrender.com/",
-        "filters": ["html", "react", "python", "flask", "sqlalchemy"]
+        "filters": ["react", "python", "flask", "sqlalchemy"]
     },
     {
         "id": 4,
@@ -43,10 +43,10 @@
         "id": 5,
         "title": "where-can-i-stay-bnb",
         "subtitle": "Full Stack Clone of AirBnb",
-        "coverimage": "/images/portfolios/portfolio-image-19.jpg",
-        "imagegallery": false,
+        "coverimage": "/images/portfolios/where-will-i-stay.jpg",
+        "imagegallery": ["/images/portfolios/where-will-i-stay1.png","/images/portfolios/where-will-i-stay2.png","/images/portfolios/where-will-i-stay3.png","/images/portfolios/where-will-i-stay4.png"],
         "videogallery": false,
         "url": "https://where-will-i-stay-bnb.onrender.com/",
-        "filters": ["react", "express", "nodejs", "javascript"]
+        "filters": ["html","react", "express", "nodejs", "javascript"]
     }
 ]

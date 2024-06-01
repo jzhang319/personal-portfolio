@@ -13,7 +13,7 @@ const Logo = ({ url = "/", text = false }) => {
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               className="h-14 max-h-full w-auto"
-              src="/images/logo.png"
+              src="/images/logo5.png"
               alt="Zhang"
             />
           </>

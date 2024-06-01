@@ -3,7 +3,7 @@
         "id": 1,
         "title": "Manager",
         "meta": "AmWins Tutoring Center Inc.",
-        "text": "Manage the After-school program consisting of 10 teachers and 60 students. Also, taught a Saturday Math program for elementary and junior high school students",
+        "text": "Manage the After-school program consisting of 10 teachers and 60 students. Taught a Saturday Math program for elementary and junior high school students",
         "year": "2011 - 2014"
     },
     {
@@ -17,21 +17,21 @@
         "id": 3,
         "title": "Administrative Director",
         "meta": "B&B Child Care Services LLC.",
-        "text": "Led and managed an after-school program with approximately 50 students. Trained over 60 after-school, summer camp teachers and teacher's assistants. Responsible for an annual budget of $120,000 distributed for hiring needs, operational costs and employee travel expenses.",
+        "text": "Led and managed an after-school program with more than 60 students. Trained over 60 after-school, summer camp teachers and teacher's assistants. Responsible for an annual budget of $120,000 distributed for hiring needs, operational costs and employee travel expenses. Reduced hiring costs by 40% with strategic lesson planning and curriculum design",
         "year": "2000 - 2023"
     },
     {
         "id": 4,
         "title": "Software Engineer",
         "meta": "Sushiyany Inc. (contract)",
-        "text": "Redesigned the company's website to improve the user experience. Cause the client has a non-technical background, I designed the website so that the restaurant menu is updated through a single CSV file.",
+        "text": "Redesigned the company's website with tailwindcss to improve the user experience. Client has a non-technical background, I designed it in a way that the restaurant menu can be updated through a single CSV file.",
         "year": "March 2024 - April 2024"
     },
     {
         "id": 5,
         "title": "Full-Stack Software Engineer",
         "meta": "Coursect Inc.",
-        "text": "Developed and implemented PDF/IMAGE chat feature utilizing the Google Gemini Vision Pro to enhance the user experience by allowing users to ask questions about the pdf/image they uploaded. Also moved the part of our database that stores the files user uploaded to Google Cloud Platform to improve the reliability and scalability of our application.",
+        "text": "Developed and implemented PDF/IMAGE chat feature utilizing the Google Gemini Vision Pro, it allows user to ask questions about the pdf or image they uploaded. Also moved our storage database that onto Google Cloud Platform to improve the reliability and scalability of the application.",
         "year": "2023 - Present"
     }
 ]

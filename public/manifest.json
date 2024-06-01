@@ -5,9 +5,9 @@
     "orientation": "portrait",
     "scope": "/",
     "start_url": "/",
-    "name": "Bieber - React Personal Portfolio Template",
-    "short_name": "Bieber",
-    "description": "Bieber is a react personal portfolio template build with NextJS and Tailwindcss.",
+    "name": "Zhang - Portfolio Website",
+    "short_name": "Jack",
+    "description": "Jack is a react personal portfolio template build with NextJS and Tailwindcss.",
     "icons": [
         {
             "src": "/icon-192x192.png",

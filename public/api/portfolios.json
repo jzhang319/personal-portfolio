@@ -4,7 +4,7 @@
         "title": "Sushiya-Restaurant",
         "subtitle": "Contract Work for a Sushi Restaurant",
         "coverimage": "/images/portfolios/portfolio-image-0.jpg",
-        "imagegallery": false,
+        "imagegallery": ["images/portfolios/portfolio-image-0a.jpg"],
         "videogallery": false,
         "url": "https://sushiya.onrender.com/menu",
         "filters": ["html", "react", "python", "flask", "sqlalchemy"]

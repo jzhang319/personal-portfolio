@@ -2,17 +2,17 @@
     {
         "id": 1,
         "title": "Javascript",
-        "percentage": 85
+        "percentage": 95
     },
     {
         "id": 2,
-        "title": "Node JS",
+        "title": "Python",
         "percentage": 90
     },
     {
         "id": 3,
-        "title": "React JS",
-        "percentage": 100
+        "title": "React.JS",
+        "percentage": 95
     },
     {
         "id": 4,
@@ -26,18 +26,18 @@
     },
     {
         "id": 6,
-        "title": "Python",
-        "percentage": 70
+        "title": "Next.JS",
+        "percentage": 80
     },
     {
         "id": 7,
         "title": "Flask",
-        "percentage": 70
+        "percentage": 90
     },
     {
         "id": 8,
         "title": "SQL-Alchemy",
-        "percentage": 75
+        "percentage": 90
     },
     {
         "id": 9,
@@ -46,7 +46,12 @@
     },
     {
         "id": 10,
-        "title": "Postgresql",
+        "title": "PostgreSQL",
         "percentage": 100
+    },
+    {
+        "id": 11,
+        "title": "Tailwind CSS",
+        "percentage": 90
     }
 ]

@@ -33,7 +33,7 @@ const resume = () => {
       >
         <div className="container mx-auto">
           <SectionHeading
-            title="My Resume"
+            title="Resume"
             watermark="Resume"
             animated={false}
           />

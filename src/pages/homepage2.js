@@ -141,7 +141,7 @@ const Homepage2 = ({ posts }) => {
           <SectionHeading
             animated={false}
             title="Contact Me"
-            watermark="Contact"
+            watermark="Contact Me"
           />
           <ContactSection />
         </div>

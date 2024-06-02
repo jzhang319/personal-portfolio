@@ -18,5 +18,10 @@
         "id": 4,
         "title": "Html & Css",
         "value": "html"
+    },
+    {
+        "id": 5,
+        "title": "Tailwind Css",
+        "value": "tailwindcss"
     }
 ]

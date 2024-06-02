@@ -7,7 +7,7 @@
         "imagegallery": ["/images/portfolios/sushiya1.png","/images/portfolios/sushiya2.png","/images/portfolios/sushiya3.png"],
         "videogallery": false,
         "url": "https://sushiya.onrender.com/menu",
-        "filters": ["react", "python", "flask", "sqlalchemy"]
+        "filters": ["react", "python", "flask", "sqlalchemy", "tailwindcss"]
     },
     {
         "id": 2,

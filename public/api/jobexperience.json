@@ -24,14 +24,21 @@
         "id": 4,
         "title": "Software Engineer",
         "meta": "Sushiyany Inc. (contract)",
-        "text": "Redesigned the company's website with tailwindcss to improve the user experience. Client has a non-technical background, I designed it in a way that the restaurant menu can be updated through a single CSV file.",
+        "text": "Redesigned the company's website with tailwindcss to improve the user experience. Client has a non-technical background, I designed it so that the restaurant menu can be updated through a single CSV file.",
         "year": "March 2024 - April 2024"
     },
     {
         "id": 5,
         "title": "Full-Stack Software Engineer",
         "meta": "Coursect Inc.",
-        "text": "Developed and implemented PDF/IMAGE chat feature utilizing the Google Gemini Vision Pro, it allows user to ask questions about the pdf or image they uploaded. Also moved our storage database that onto Google Cloud Platform to improve the reliability and scalability of the application.",
-        "year": "2023 - Present"
+        "text": "AI Tutoring Startup that uses AI to help students study and improve their grades. I am responsible for the development of the image chat feature which helps users answer questions with uploaded image or pdf.",
+        "year": "Dec 2023 - Present"
+    },
+    {
+        "id": 6,
+        "title": "Full-Stack Software Engineer",
+        "meta": "ModernTech LLC.",
+        "text": "Working on a team of 4 engineers to develop a SMS marketing feature which helps businesses send SMS messages to their customers with promotions and updates.",
+        "year": "April 2024 - Present"
     }
 ]

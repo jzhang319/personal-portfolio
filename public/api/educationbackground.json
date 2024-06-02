@@ -8,7 +8,7 @@
     },
     {
         "id": 2,
-        "title": "Finance & Business Management",
+        "title": "Business Management & Finance",
         "meta": "Long Island University",
         "text": "Started college again after a long break, but realize I couldn't get back into Pharmacy, then switched over to double major of Business Management and Finance.",
         "year": "2006 - 2008"
@@ -17,7 +17,14 @@
         "id": 3,
         "title": "Full-Stack Software Engineer",
         "meta": "App Academy",
-        "text": "Took a leap of faith, and ended up finding out my passion for coding during this boot camp.",
+        "text": "Discovered my passion for coding during the boot camp where I learned computer science theories and built full-stack applications through hands-on projects.",
         "year": "2022 - 2023"
+    },
+    {
+        "id": 4,
+        "title": "Solutions Architect",
+        "meta": "AWS Training",
+        "text": "Currently studying for AWS Solutions Architect certification to become a certified AWS professional.",
+        "year": "2024 - Present"
     }
 ]

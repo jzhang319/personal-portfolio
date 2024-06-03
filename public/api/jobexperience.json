@@ -22,17 +22,17 @@
     },
     {
         "id": 4,
-        "title": "Software Engineer",
-        "meta": "Sushiyany Inc. (contract)",
-        "text": "Redesigned the company's website with tailwindcss to improve the user experience. Client has a non-technical background, I designed it so that the restaurant menu can be updated through a single CSV file.",
-        "year": "March 2024 - April 2024"
-    },
-    {
-        "id": 5,
         "title": "Full-Stack Software Engineer",
         "meta": "Coursect Inc.",
         "text": "AI Tutoring Startup that uses AI to help students study and improve their grades. I am responsible for the development of the image chat feature which helps users answer questions with uploaded image or pdf.",
         "year": "Dec 2023 - Present"
+    },
+    {
+        "id": 5,
+        "title": "Software Engineer",
+        "meta": "Sushiyany Inc. (contract)",
+        "text": "Redesigned the company's website with tailwindcss to improve the user experience. Client has a non-technical background, I designed it so that the restaurant menu can be updated through a single CSV file.",
+        "year": "March 2024 - April 2024"
     },
     {
         "id": 6,

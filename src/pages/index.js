@@ -20,9 +20,10 @@ import { useRouter } from "next/router";
 const Homepage2 = ({ posts }) => {
   const router = useRouter();
 
-  useEffect(() => {
-    router.push("/homepage2");
-  }, []);
+  // useEffect(() => {
+  //   router.push("/homepage2");
+  // }, []);
+  
   return (
     <Layout blurred>
       <Head>

@@ -14,16 +14,10 @@ import {
 import { Layout } from "../components/layout";
 import { SectionHeading } from "../components/utils";
 import { getPostsByPage } from "../lib/blogging";
-import { useEffect } from "react";
-import { useRouter } from "next/router";
+
 
 const Homepage2 = ({ posts }) => {
-  const router = useRouter();
 
-  // useEffect(() => {
-  //   router.push("/homepage2");
-  // }, []);
-  
   return (
     <Layout blurred>
       <Head>

@@ -14,7 +14,7 @@ import {
 import { Layout } from "../components/layout";
 import { SectionHeading } from "../components/utils";
 import { getPostsByPage } from "../lib/blogging";
-
+ 
 const Homepage2 = ({ posts }) => {
   return (
     <Layout blurred>

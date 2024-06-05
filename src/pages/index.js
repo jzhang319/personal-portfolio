@@ -21,7 +21,7 @@ const Homepage2 = ({ posts }) => {
   return (
     <Layout blurred>
       <Head>
-        <title>Zhang - Personal Portfolio Site</title>
+        <title>Zhang - Portfolio Site</title>
       </Head>
 
       {/* Start Hero Section */}

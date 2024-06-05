@@ -7,7 +7,7 @@ const works = () => {
   return (
     <Layout2>
       <Head>
-        <title>Portfolios - Zhang - Personal Portfolio Site</title>
+        <title>Portfolios - Zhang - Portfolio Site</title>
       </Head>
 
       {/* Start Portfolios Section */}

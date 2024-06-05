@@ -6,7 +6,7 @@ const Homepage3 = () => {
   return (
     <Layout2>
       <Head>
-        <title>Zhang - Personal Portfolio Site</title>
+        <title>Zhang - Portfolio Site</title>
       </Head>
 
       {/* Start Hero Section */}

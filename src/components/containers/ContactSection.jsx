@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { RiMailLine, RiMapPinLine, RiPhoneLine } from "react-icons/ri";
+import { RiMailLine, RiMapPinLine, RiPhoneLine, RiCalendarCheckLine } from "react-icons/ri";
 import { useQuery } from "react-query";
 import { getInformation } from "../../fetchers";
 import { childrenAnimation } from "../../lib/motion";
@@ -61,7 +61,7 @@ const ContactSection = () => {
 
             <div className="contact-block card flex p-4 md:p-5">
               <span className="icon mr-4 inline-flex h-16 w-16 shrink-0 grow-0 basis-16 items-center justify-center rounded-full bg-primary bg-opacity-10 text-3xl text-primary">
-                <RiMailLine />
+                <RiCalendarCheckLine />
               </span>
               <div className="content">
                 <h5 className="mb-2">Schedule a 15-min chat with me</h5>

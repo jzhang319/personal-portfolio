@@ -6,7 +6,7 @@ const Navigation = () => {
   const router = useRouter();
   const checkroute =
     router.route !== "/"
-  
+
   return (
     <nav className="flex-grow px-5 text-center">
       <ul className="mb-0 inline-flex list-none gap-7 pl-0">
@@ -24,7 +24,7 @@ const Navigation = () => {
               to="section-home"
               spy={true}
               smooth="easeInQuad"
-              offset={-74}
+              offset={0}
               duration={1000}
               className="group relative inline-block cursor-pointer py-6 text-sm font-medium uppercase tracking-wider text-heading before:text-primary"
             >

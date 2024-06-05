@@ -19,7 +19,7 @@ const Footer = () => {
             &copy; {new Date().getFullYear()}, All right reserved
             <Link href="/">
               <a className="pl-1.5 font-medium text-heading no-underline hover:text-primary">
-                Jack Zhang
+                Initial Z Technology
               </a>
             </Link>
           </p>

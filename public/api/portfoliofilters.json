@@ -23,5 +23,15 @@
         "id": 5,
         "title": "Tailwind Css",
         "value": "tailwindcss"
+    },
+    {
+        "id": 6,
+        "title": "Django",
+        "value": "django"
+    },
+    {
+        "id": 7,
+        "title": "AWS",
+        "value": "aws"
     }
 ]

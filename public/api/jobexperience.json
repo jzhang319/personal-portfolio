@@ -36,6 +36,13 @@
     },
     {
         "id": 6,
+        "title": "Software Engineer",
+        "meta": "Major HVAC Inc. (contract)",
+        "text": "Designed the company's website, which allows the owner to post finished projects and blog posts. The website is built with React and Flask, plus TailwindCSS for styling.",
+        "year": "May 2024 - July 2024"
+    },
+    {
+        "id": 7,
         "title": "Full-Stack Software Engineer",
         "meta": "ModernTech LLC.",
         "text": "Working on a team of 4 engineers to develop a SMS marketing feature which helps businesses send SMS messages to their customers with promotions and updates.",

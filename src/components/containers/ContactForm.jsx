@@ -13,6 +13,7 @@ const ContactForm = () => {
     register,
     handleSubmit,
     formState: { errors },
+    reset,
   } = useForm();
 
   const onSubmit = (data) => {
@@ -27,8 +28,8 @@ const ContactForm = () => {
         (result) => {
           if (result.status === 200 && result.text) {
             setServerError(false);
-            setServerSuccess("Email successfully sent!");
-            // reset();
+            setServerSuccess("Email sent successfully!");
+            reset();
           }
         },
         (error) => {

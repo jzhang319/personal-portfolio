@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "title": "Manager",
+        "title": "Manager / Co-Founder",
         "meta": "AmWins Tutoring Center Inc.",
         "text": "Manage the After-school program consisting of 10 teachers and 60 students. Taught a Saturday Math program for elementary and junior high school students",
         "year": "2011 - 2014"
@@ -22,16 +22,16 @@
     },
     {
         "id": 4,
-        "title": "Full-Stack Software Engineer",
+        "title": "CTO / Full-Stack Software Engineer",
         "meta": "Coursect Inc.",
-        "text": "AI Tutoring Startup that uses AI to help students study and improve their grades. I am responsible for the development of the image chat feature which helps users answer questions with uploaded image or pdf.",
+        "text": "An AI Tutoring Startup that uses AI to help students study and improve their grades. I am responsible for the development of the image chat feature which helps users answer questions with uploaded image or pdf.",
         "year": "Dec 2023 - Present"
     },
     {
         "id": 5,
         "title": "Software Engineer",
         "meta": "Sushiyany Inc. (contract)",
-        "text": "Redesigned the company's website with tailwindcss to improve the user experience. Client has a non-technical background, I designed it so that the restaurant menu can be updated through a single CSV file.",
+        "text": "Redesigned the company's website with tailwindcss to improve the user experience. Client has a non-technical background therefore I designed it so that the restaurant menu can be updated through a CSV file and directly through google sheets",
         "year": "March 2024 - April 2024"
     },
     {
@@ -45,7 +45,7 @@
         "id": 7,
         "title": "Full-Stack Software Engineer",
         "meta": "ModernTech LLC.",
-        "text": "Working on a team of 4 engineers to develop a SMS marketing feature which helps businesses send SMS messages to their customers with promotions and updates.",
+        "text": "Working with a team of 4 engineers to develop an SMS marketing feature which helps businesses send text messages to their customers with promotions and updates.",
         "year": "April 2024 - Present"
     }
 ]

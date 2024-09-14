@@ -11,7 +11,7 @@
     },
     {
         "id": 3,
-        "title": "React Js",
+        "title": "React",
         "value": "react"
     },
     {
@@ -21,7 +21,7 @@
     },
     {
         "id": 5,
-        "title": "Tailwind Css",
+        "title": "TailwindCss",
         "value": "tailwindcss"
     },
     {
@@ -41,11 +41,16 @@
     },
     {
         "id": 9,
+        "title": "NEXT.JS",
+        "value": "nextjs"
+    },
+    {
+        "id": 10,
         "title": "Clerk",
         "value": "clerk"
     },
     {
-        "id": 10,
+        "id": 11,
         "title": "Supabase",
         "value": "supabase"
     }

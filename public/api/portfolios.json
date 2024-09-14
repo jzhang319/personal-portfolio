@@ -48,5 +48,15 @@
         "videogallery": false,
         "url": "https://where-will-i-stay-bnb.onrender.com/",
         "filters": ["html","react", "express", "nodejs", "javascript"]
+    },
+    {
+        "id": 6,
+        "title": "Zhang's Marketplace",
+        "subtitle": "A SAAS application that let's you buy and sell UI components, connects to Stripe Portal for direct payment management, and uses Clerk for authentication",
+        "coverimage": "/images/portfolios/zhang-marketplace.png",
+        "imagegallery": false,
+        "videogallery": false,
+        "url": "https://where-will-i-stay-bnb.onrender.com/",
+        "filters": ["react", "nextjs", "typescript", "clerk", "stripe", "supabase"]
     }
 ]

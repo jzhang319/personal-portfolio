@@ -33,5 +33,20 @@
         "id": 7,
         "title": "AWS",
         "value": "aws"
+    },
+    {
+        "id": 8,
+        "title": "Stripe",
+        "value": "stripe"
+    },
+    {
+        "id": 9,
+        "title": "Clerk",
+        "value": "clerk"
+    },
+    {
+        "id": 10,
+        "title": "Supabase",
+        "value": "supabase"
     }
 ]

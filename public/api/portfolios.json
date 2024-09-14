@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "title": "Sushiya-Restaurant",
+        "title": "Sushiya - Restaurant",
         "subtitle": "Contract Work for a Sushi Restaurant",
         "coverimage": "/images/portfolios/sushiya.jpg",
         "imagegallery": ["/images/portfolios/sushiya1.png","/images/portfolios/sushiya2.png","/images/portfolios/sushiya3.png"],
@@ -11,18 +11,18 @@
     },
     {
         "id": 2,
-        "title": "AI Tutoring Platform",
-        "subtitle": "Software Engineer at Coursect",
+        "title": "Coursect Inc ",
+        "subtitle": "An AI Tutoring Platform",
         "coverimage": "/images/portfolios/coursect.jpg",
         "imagegallery": false,
         "videogallery": false,
-        "url": "https://coursect.onrender.com/",
-        "filters": ["react", "python", "flask", "sqlalchemy"]
+        "url": "https://coursect.org/",
+        "filters": ["react", "python", "gcp", "tailwindcss"]
     },
     {
         "id": 3,
         "title": "Pixelgram",
-        "subtitle": "Full-Stack clone of Instagram",
+        "subtitle": "Full-Stack clone of Instagram with an added general chat feature",
         "coverimage": "/images/portfolios/pixelgram.jpg",
         "imagegallery": ["/images/portfolios/pixelgram1.png","/images/portfolios/pixelgram2.png","/images/portfolios/pixelgram3.png"],
         "videogallery": false,
@@ -31,7 +31,7 @@
     },
     {
         "id": 4,
-        "title": "Question-Overflow",
+        "title": "Question - Overflow",
         "subtitle": "Full-Stack Clone of Stack Overflow",
         "coverimage": "/images/portfolios/question-overflow.jpg",
         "imagegallery": ["/images/portfolios/question-overflow1.png", "/images/portfolios/question-overflow2.png", "/images/portfolios/question-overflow3.png"],
@@ -57,6 +57,6 @@
         "imagegallery": false,
         "videogallery": false,
         "url": "https://where-will-i-stay-bnb.onrender.com/",
-        "filters": ["react", "nextjs", "typescript", "clerk", "stripe", "supabase"]
+        "filters": ["react", "nextjs", "typescript", "kinde", "stripe", "supabase", "tailwindcss"]
     }
 ]

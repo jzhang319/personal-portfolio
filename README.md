@@ -5,10 +5,10 @@ Hi! I’m Jack Zhang, a passionate Full Stack Developer with expertise in buildi
 ## 🛠 Technical Skills
 
 ### Frontend
-- **React.js** | **Redux** | **JavaScript** | **HTML** | **CSS**
+- **React.js** | **Redux** | **JavaScript** | **HTML** | **CSS** | **NEXT.js** | **TailwindCSS**
 
 ### Backend
-- **Node.js** | **Express** | **Flask** | **SQL** | **PostgreSQL** | **SQL-Alchemy** | **Python**
+- **Node.js** | **Express** | **Flask** | **SQL** | **PostgreSQL** | **SQL-Alchemy** | **Python** | **Sequelize**
 
 ### Other Expertise
 - **Data Structures and Algorithms**
@@ -24,16 +24,16 @@ Hi! I’m Jack Zhang, a passionate Full Stack Developer with expertise in buildi
 - Extensive background in debugging, writing test scripts, and SQL queries, while maintaining CI servers.
 
 ## 🌱 What I'm Learning
-I'm continually expanding my expertise in **TypeScript**, **Electron**, and **large language models (LLMs)** to explore AI-powered solutions.
+I'm continually expanding my expertise in **TypeScript**, **AWS Solutions Architech** and **large language models (LLMs)** to explore AI-powered solutions.
 
 ## 💼 Work Background
 Along with my technical background, I’ve also had experience in **business administration**, **nonprofit management**, and **entrepreneurship**, which allows me to contribute holistically to any project, ensuring alignment with business goals.
 
 ## 🚀 Current Stack
-- **Frontend**: React.js, Redux, HTML, CSS, JavaScript
-- **Backend**: Node.js, Express, PostgreSQL, Flask, Python
-- **Database**: MySQL, SQL-Alchemy, SQL
-- **Other Tools**: Docker, AWS, CI/CD Pipelines, Agile Methodologies
+- **Frontend**: React.js, Redux, HTML, CSS, JavaScript, NEXT.JS, TailwindCSS
+- **Backend**: Node.js, Express, Flask, Python, Django
+- **Database**: MySQL, SQL-Alchemy, SQLite, PostgreSQL
+- **Other Tools**: Docker, AWS, GCP, CI/CD Pipelines, Agile Methodologies, MongoDB, Supabase
 
 ## 🤝 Let's Connect
 - **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/jack-zhang-1ba90929/)

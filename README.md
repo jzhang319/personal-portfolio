@@ -1,34 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Jack Zhang - Full Stack Developer
 
-## Getting Started
+Hi! I’m Jack Zhang, a passionate Full Stack Developer with expertise in building user-centered web applications. I thrive on working in collaborative environments and applying agile methodologies to deliver scalable, efficient solutions.
 
-First, run the development server:
+## 🛠 Technical Skills
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+### Frontend
+- **React.js** | **Redux** | **JavaScript** | **HTML** | **CSS** | **NEXT.js** | **TailwindCSS**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Backend
+- **Node.js** | **Express** | **Flask** | **SQL** | **PostgreSQL** | **SQL-Alchemy** | **Python** | **Sequelize**
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+### Other Expertise
+- **Data Structures and Algorithms**
+- **Software Architecture and Design**
+- **Debugging and Optimization**
+- **Deployment and Cloud Services**
+- **Socket.IO**
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## 🔧 Experience
+- Successfully delivered several full-stack projects, focusing on performance, user experience, and scalable architecture.
+- Strong leadership in managing projects from system design to deployment.
+- Collaborated with cross-functional teams to define, design, and ship new features.
+- Extensive background in debugging, writing test scripts, and SQL queries, while maintaining CI servers.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## 🌱 What I'm Learning
+I'm continually expanding my expertise in **TypeScript**, **AWS Solutions Architech** and **large language models (LLMs)** to explore AI-powered solutions.
 
-## Learn More
+## 💼 Work Background
+Along with my technical background, I’ve also had experience in **business administration**, **nonprofit management**, and **entrepreneurship**, which allows me to contribute holistically to any project, ensuring alignment with business goals.
 
-To learn more about Next.js, take a look at the following resources:
+## 🚀 Current Stack
+- **Frontend**: React.js, Redux, HTML, CSS, JavaScript, NEXT.JS, TailwindCSS
+- **Backend**: Node.js, Express, Flask, Python, Django
+- **Database**: MySQL, SQL-Alchemy, SQLite, PostgreSQL
+- **Other Tools**: Docker, AWS, GCP, CI/CD Pipelines, Agile Methodologies, MongoDB, Supabase
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🤝 Let's Connect
+- **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/jack-zhang-1ba90929/)
+- **Portfolio**: [Your Portfolio](https://jackzhang.io)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Feel free to explore my projects and contributions!

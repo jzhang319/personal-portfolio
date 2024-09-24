@@ -11,46 +11,41 @@
     },
     {
         "id": 3,
+        "title": "Typescript",
+        "value": "typescript"
+    },
+    {
+        "id": 4,
         "title": "React",
         "value": "react"
     },
     {
-        "id": 4,
+        "id": 5,
         "title": "GCP",
         "value": "gcp"
     },
     {
-        "id": 5,
+        "id": 6,
         "title": "TailwindCss",
         "value": "tailwindcss"
     },
     {
-        "id": 6,
-        "title": "Django",
-        "value": "django"
-    },
-    {
         "id": 7,
-        "title": "AWS",
-        "value": "aws"
-    },
-    {
-        "id": 8,
         "title": "Stripe",
         "value": "stripe"
     },
     {
-        "id": 9,
+        "id": 8,
         "title": "NEXT.JS",
         "value": "nextjs"
     },
     {
-        "id": 10,
+        "id": 9,
         "title": "Kinde",
         "value": "kinde"
     },
     {
-        "id": 11,
+        "id": 10,
         "title": "Supabase",
         "value": "supabase"
     }

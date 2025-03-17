@@ -10,10 +10,6 @@ const nextConfig = {
   },
   output: "export",
   trailingSlash: true,
-  experimental: {
-    optimizeCss: true,
-    scrollRestoration: true,
-  },
 };
 
 module.exports = withPlugins(

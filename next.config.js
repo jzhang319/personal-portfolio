@@ -3,26 +3,27 @@ const withPWA = require("next-pwa");
 const runtimeCaching = require("next-pwa/cache");
 
 const nextConfig = {
-    reactStrictMode: true,
-    images: {
-        deviceSizes: [640, 768, 1024, 1280, 1536],
-        loader: "custom",
-        path: "/",
-    },
+  reactStrictMode: true,
+  images: {
+    domains: ["vercel.com"],
+    unoptimized: false,
+  },
+  output: "standalone",
+  assetPrefix: process.env.NODE_ENV === "production" ? undefined : undefined,
 };
 
 module.exports = withPlugins(
+  [
     [
-        [
-            withPWA,
-            {
-                pwa: {
-                    disable: process.env.NODE_ENV === "development",
-                    dest: "public",
-                    runtimeCaching,
-                },
-            },
-        ],
+      withPWA,
+      {
+        pwa: {
+          disable: process.env.NODE_ENV === "development",
+          dest: "public",
+          runtimeCaching,
+        },
+      },
     ],
-    nextConfig
+  ],
+  nextConfig
 );

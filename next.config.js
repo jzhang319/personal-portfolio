@@ -8,8 +8,12 @@ const nextConfig = {
     domains: ["vercel.com"],
     unoptimized: false,
   },
-  output: "standalone",
-  assetPrefix: process.env.NODE_ENV === "production" ? undefined : undefined,
+  output: "export",
+  trailingSlash: true,
+  experimental: {
+    optimizeCss: true,
+    scrollRestoration: true,
+  },
 };
 
 module.exports = withPlugins(

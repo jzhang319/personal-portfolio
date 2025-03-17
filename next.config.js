@@ -8,8 +8,9 @@ const nextConfig = {
     domains: ["vercel.com"],
     unoptimized: false,
   },
-  output: "export",
   trailingSlash: true,
+  swcMinify: true,
+  poweredByHeader: false,
 };
 
 module.exports = withPlugins(

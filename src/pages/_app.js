@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Script from "next/script";
 import Router from "next/router";
 import NProgress from "nprogress";
 import { useRef } from "react";
@@ -43,6 +44,23 @@ function MyApp({ Component, pageProps }) {
           <link rel="apple-touch-icon" href="/icon-192x192.png" />
           <title>Zhang - Portfolio Site</title>
         </Head>
+        {/* Google Analytics */}
+        <Script
+          strategy="afterInteractive"
+          src="https://www.googletagmanager.com/gtag/js?id=G-F5TCY6RKJZ"
+        />
+        <Script
+          id="google-analytics"
+          strategy="afterInteractive"
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-F5TCY6RKJZ');
+            `,
+          }}
+        />
         <ParallaxProvider>
           <Hydrate state={pageProps.dehydratedState}>
             <Component {...pageProps} />

@@ -55,5 +55,9 @@
         "tailwindcss-nested-groups": "^1.2.4"
     },
     "license": "MIT",
-    "proxy": "http://localhost:3000/api"
+    "proxy": "http://localhost:3000/api",
+    "engines": {
+        "node": ">=18.0.0",
+        "npm": ">=8.0.0"
+    }
 }

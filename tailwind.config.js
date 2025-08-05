@@ -56,7 +56,6 @@ module.exports = {
     },
   },
   plugins: [
-    require("tailwindcss-nested-groups"),
     require("tailwindcss-debug-screens"),
   ],
 };

@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 import { childrenAnimation } from "../../lib/motion";
 import { useQuery } from "react-query";
 import { getInformation } from "../../fetchers";
-import ReactTyped from "react-typed";
+import { ReactTyped } from "react-typed";
 
 const HeroSection = ({ blurred, scroll = true, typed = true }) => {
   const { data } = useQuery("information", getInformation);

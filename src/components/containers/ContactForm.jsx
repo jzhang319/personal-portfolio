@@ -1,4 +1,4 @@
-import { useRef, useState } from "react";
+import { useRef, useState, useEffect } from "react";
 import { useForm } from "react-hook-form";
 import emailjs from "@emailjs/browser";
 import { settings } from "../../settings/settings";
@@ -8,6 +8,20 @@ const ContactForm = () => {
 
   const [serverSuccess, setServerSuccess] = useState("");
   const [serverError, setServerError] = useState("");
+  const [isInitialized, setIsInitialized] = useState(false);
+  const [isSending, setIsSending] = useState(false);
+
+  useEffect(() => {
+    // Initialize EmailJS with public key
+    if (settings.emailjs_publickey) {
+      emailjs.init(settings.emailjs_publickey);
+      setIsInitialized(true);
+      console.log("EmailJS initialized with key:", settings.emailjs_publickey);
+    } else {
+      console.error("EmailJS public key is missing!");
+      setServerError("Email service configuration error");
+    }
+  }, []);
 
   const {
     register,
@@ -16,27 +30,56 @@ const ContactForm = () => {
     reset,
   } = useForm();
 
-  const onSubmit = (data) => {
-    emailjs
-      .sendForm(
+  const onSubmit = async (data) => {
+    if (!isInitialized) {
+      setServerError("Email service is not initialized. Please refresh the page.");
+      return;
+    }
+
+    // Clear previous messages
+    setServerSuccess("");
+    setServerError("");
+    setIsSending(true);
+    
+    console.log("Attempting to send email with:", {
+      serviceId: settings.emailjs_serviceid,
+      templateId: settings.emailjs_templateid,
+      publicKey: settings.emailjs_publickey,
+      formData: data
+    });
+    
+    try {
+      const result = await emailjs.sendForm(
         settings.emailjs_serviceid,
         settings.emailjs_templateid,
         currentForm.current,
         settings.emailjs_publickey
-      )
-      .then(
-        (result) => {
-          if (result.status === 200 && result.text) {
-            setServerError(false);
-            setServerSuccess("Email sent successfully!");
-            reset();
-          }
-        },
-        (error) => {
-          setServerSuccess(false);
-          setServerError("Something is wrong while sending the message!");
-        }
       );
+      
+      console.log("EmailJS Success:", result);
+      
+      if (result.status === 200) {
+        setServerError("");
+        setServerSuccess("Email sent successfully!");
+        reset();
+      } else {
+        throw new Error(`Unexpected status: ${result.status}`);
+      }
+    } catch (error) {
+      console.error("EmailJS Error Details:", error);
+      setServerSuccess("");
+      
+      // More detailed error messages
+      if (error.text) {
+        setServerError(`Error: ${error.text}`);
+      } else if (error.message) {
+        setServerError(`Error: ${error.message}`);
+      } else {
+        setServerError("Failed to send email. Please check your internet connection and try again.");
+      }
+    } finally {
+      setIsSending(false);
+    }
   };
 
   return (
@@ -136,8 +179,8 @@ const ContactForm = () => {
           {serverSuccess}
         </p>
       )}
-      <button type="submit" className="btn">
-        <span>Send Mail</span>
+      <button type="submit" className="btn" disabled={isSending}>
+        <span>{isSending ? "Sending..." : "Send Mail"}</span>
       </button>
     </form>
   );

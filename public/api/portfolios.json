@@ -58,5 +58,15 @@
         "videogallery": false,
         "url": "https://where-will-i-stay-bnb.onrender.com/",
         "filters": ["react", "nextjs", "typescript", "kinde", "stripe", "supabase", "tailwindcss"]
+    },
+    {
+        "id": 7,
+        "title": "Reef Calculator",
+        "subtitle": "A mobile-first calculator for reef tank hobbyists. Quickly calculate alkalinity, calcium, and magnesium dosing amounts for popular products, convert salinity units, and determine water change percentages.",
+        "coverimage": "/images/portfolios/reefcalc.png",
+        "imagegallery": false,
+        "videogallery": false,
+        "url": "https://reefcalc.vercel.app/",
+        "filters": ["react", "javascript", "html", "uiux"]
     }
 ]

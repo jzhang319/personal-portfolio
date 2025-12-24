@@ -56,7 +56,7 @@
         "coverimage": "/images/portfolios/zhang-marketplace.png",
         "imagegallery": false,
         "videogallery": false,
-        "url": "https://where-will-i-stay-bnb.onrender.com/",
+        "url": "https://zhang-marketplace.vercel.app/",
         "filters": ["react", "nextjs", "typescript", "kinde", "stripe", "supabase", "tailwindcss"]
     },
     {

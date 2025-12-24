@@ -11,11 +11,12 @@ const PortfoliosSection = () => {
   const [currentFilter, setCurrentFilter] = useState("");
   const [pageNumber, setPageNumber] = useState(1);
 
-  const { data } = useQuery("portfolios", getPortfolios);
+  const { data: rawData } = useQuery("portfolios", getPortfolios);
+  const data = rawData ? [...rawData].reverse() : null;
 
   useEffect(() => {
     if (data) setVisiblePortfolios(data.slice(0, 6));
-  }, [data]);
+  }, [rawData]);
 
   // Portfolio Filter function
   const handleFilter = useCallback(
